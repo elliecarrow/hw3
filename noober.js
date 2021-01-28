@@ -13,9 +13,11 @@ if (ride.length > 1 ) {
   levelOfService = 'Noober Pool'
 } else if  (ride[0].purpleRequested == true) {
   levelOfService = 'Noober Purple'
-} else if (ride[0].numberOfpassengers > 3) {
+} else if (ride[0].numberOfPassengers > 3 ) {
   levelOfService = 'Noober XL'
-} else {levelOfService = 'Noober X'}
+} else {
+  levelOfService = 'Noober X'
+}
 
 let passenger1 = ride[0]
 let passenger2 = ride[1]
